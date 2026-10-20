@@ -56,3 +56,5 @@
 
 /* Cartões compactos em duas linhas no desktop. */
 .audiences .audience-grid{max-width:1000px;margin-inline:auto;gap:24px}.audiences .audience-card>img{aspect-ratio:2.15;object-fit:cover;object-position:center}.audiences .audience-card>div{padding:22px 26px}.audiences .audience-card h3{font-size:28px;margin:8px 0 12px}.audiences .audience-card p{max-width:none;margin-bottom:8px}.audiences .card-label{font-size:11px}.audiences .audience-card .text-link{padding:6px 0}@media(max-width:700px){.audiences .audience-grid{gap:22px}.audiences .audience-card>div{padding:22px}.audiences .audience-card h3{font-size:27px}.audiences .audience-card>img{aspect-ratio:1.9}}
+
+.course-image{display:block}.course-image:focus-visible{outline-offset:-4px}
