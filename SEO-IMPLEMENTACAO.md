@@ -76,6 +76,14 @@ Não foram executados Lighthouse ou PageSpeed Insights nem obtidos dados de camp
 
 A tentativa de instalar um navegador headless local recebeu um arquivo de download inválido; a revisão visual foi realizada pela prévia supervisionada do Sites. Rich Results Test e Schema Markup Validator não foram executados remotamente; o JSON foi validado sintaticamente e os tipos foram ajustados ao vocabulário oficial.
 
+### Verificação após publicação
+
+As duas rotinas concluíram com sucesso para o commit c1bb60da99e0c57242665b7dd892590830a14a9b. As nove páginas foram abertas diretamente e atualizadas no domínio real, com títulos, H1 e canonical corretos. O robots.txt público e o sitemap com nove URLs foram observados funcionando. As navegações iniciadas em HTTP e na versão www chegaram a https://gamaescolademusica.com.br/. Não foram medidos os códigos intermediários da cadeia de redirecionamento. DNS e configurações do domínio não foram alterados.
+
+Execuções verificadas:
+- https://github.com/maximilerlima/gama-escola-de-musica/actions/runs/39372919178
+- https://github.com/maximilerlima/gama-escola-de-musica/actions/runs/39372918568
+
 ## F. Pendências externas
 
 1. **Search Console:** adicionar a propriedade de domínio gamaescolademusica.com.br, copiar o TXT fornecido pelo Google para o provedor DNS e concluir a verificação. Nenhum código foi inventado ou inserido.
@@ -85,7 +93,7 @@ A tentativa de instalar um navegador headless local recebeu um arquivo de downlo
 5. **GA4:** fornecer Measurement ID e definir consentimento/privacidade antes de ativar coleta. Não há rastreamento externo novo ativo.
 6. Executar os validadores oficiais de dados estruturados e PageSpeed no site publicado.
 7. Em Settings → Pages, recomenda-se usar Source → GitHub Actions para evitar as duas rotinas de publicação existentes. A integração não dispõe de uma operação para alterar essa configuração administrativa. As duas rotinas recebem agora HTML e sitemap prontos; o build gera também o sitemap da raiz, que deve acompanhar o commit ao adicionar páginas.
-8. Conferir no provedor/GitHub as variantes HTTP e www. O domínio HTTPS principal foi observado funcionando antes das alterações. Não foram alterados DNS, regras de CDN ou configuração de redirecionamento. GitHub Pages não permite regras arbitrárias de redirecionamento por arquivo; canonical não substitui redirecionamento HTTP.
+
 
 Indexação e posição de busca dependem de rastreamento e avaliação do Google. Publicar estes arquivos não comprova indexação nem garante uma posição específica.
 
