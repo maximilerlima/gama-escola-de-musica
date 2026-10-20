@@ -60,6 +60,7 @@ def build(out):
         ET.SubElement(entry,ns+'loc').text=base+route
     ET.indent(sitemap)
     ET.ElementTree(sitemap).write(out/'sitemap.xml',encoding='utf-8',xml_declaration=True)
+    shutil.copy2(out/'sitemap.xml',ROOT/'sitemap.xml')
     print('Built',len(config['routes']),'static HTML routes in',out)
 
 if __name__=='__main__':

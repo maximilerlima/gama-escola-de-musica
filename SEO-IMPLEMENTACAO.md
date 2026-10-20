@@ -18,7 +18,7 @@ Foram implementados:
 - Entrada nas páginas de curso para o formulário existente com o instrumento selecionado.
 - Mensagem de WhatsApp com aula gratuita e consulta de disponibilidade, preparada somente após submissão do formulário.
 - Hooks de eventos sem biblioteca de Analytics e sem envio de dados pessoais.
-- Workflow existente preservado, com substituição da cópia fixa pelo build estático. CNAME incluído no artefato, sem alteração de conteúdo.
+- Workflow existente preservado, com substituição da cópia fixa pelo build estático. A rotina nativa de Pages também publica a raiz; o sitemap gerado passou a existir na raiz e no artefato para compatibilidade com as duas rotinas. CNAME incluído no artefato, sem alteração de conteúdo.
 
 Arquivos principais: index.html, styles.css, script.js, seo-page.js, seo.json, robots.txt, scripts/build.py, .github/workflows/deploy-pages.yml, páginas internas e documentação.
 
@@ -84,7 +84,8 @@ A tentativa de instalar um navegador headless local recebeu um arquivo de downlo
 4. Confirmar o link exato do perfil no Maps, horários e coordenadas antes de acrescentá-los ao schema.
 5. **GA4:** fornecer Measurement ID e definir consentimento/privacidade antes de ativar coleta. Não há rastreamento externo novo ativo.
 6. Executar os validadores oficiais de dados estruturados e PageSpeed no site publicado.
-7. Conferir no provedor/GitHub as variantes HTTP e www. O domínio HTTPS principal foi observado funcionando antes das alterações. Não foram alterados DNS, regras de CDN ou configuração de redirecionamento. GitHub Pages não permite regras arbitrárias de redirecionamento por arquivo; canonical não substitui redirecionamento HTTP.
+7. Em Settings → Pages, recomenda-se usar Source → GitHub Actions para evitar as duas rotinas de publicação existentes. A integração não dispõe de uma operação para alterar essa configuração administrativa. As duas rotinas recebem agora HTML e sitemap prontos; o build gera também o sitemap da raiz, que deve acompanhar o commit ao adicionar páginas.
+8. Conferir no provedor/GitHub as variantes HTTP e www. O domínio HTTPS principal foi observado funcionando antes das alterações. Não foram alterados DNS, regras de CDN ou configuração de redirecionamento. GitHub Pages não permite regras arbitrárias de redirecionamento por arquivo; canonical não substitui redirecionamento HTTP.
 
 Indexação e posição de busca dependem de rastreamento e avaliação do Google. Publicar estes arquivos não comprova indexação nem garante uma posição específica.
 

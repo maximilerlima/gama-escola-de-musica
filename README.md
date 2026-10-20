@@ -18,6 +18,8 @@ Execute, a partir da raiz:
 
     python3 scripts/build.py --out site
 
+O sitemap.xml da raiz também é gerado pelo build e deve acompanhar o commit de novas páginas. Isso mantém compatibilidade com a rotina nativa de Pages que também publica a raiz neste repositório. Para evitar duas publicações concorrentes, recomenda-se selecionar Settings → Pages → Source → GitHub Actions; essa configuração não foi alterada pela integração.
+
 O build gera HTML por rota, aplica os metadados de seo.json, copia os arquivos públicos e gera site/sitemap.xml. Ao criar uma página, registre sua rota e metadados em seo.json; o sitemap será atualizado no próximo build. Não há React, dependência npm ou renderização client-side necessária para o conteúdo das páginas.
 
 A Action .github/workflows/deploy-pages.yml executa o build e publica site/ no GitHub Pages a cada atualização da main. site/, qa/ e .openai/ locais são artefatos de desenvolvimento; não são fontes a enviar para a branch.
