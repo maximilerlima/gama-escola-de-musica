@@ -12,7 +12,7 @@ def metadata_block(base, path, meta, image):
         '<meta name="description" content="'+e(meta['description'],quote=True)+'">',
         '<meta name="robots" content="index,follow">',
         '<link rel="canonical" href="'+base+path+'">',
-        '<meta property="og:type" content="website">',
+        '<meta property="og:type" content="'+meta.get('type','website')+'">',
         '<meta property="og:locale" content="pt_BR">',
         '<meta property="og:site_name" content="Gama Escola de Música">',
         '<meta property="og:title" content="'+e(meta['title'],quote=True)+'">',

@@ -37,6 +37,30 @@
     "/musicalizacao-infantil/": {
       "title": "Musicalização Infantil no Grajaú | Gama Escola de Música",
       "description": "Conheça a musicalização infantil da Gama no Grajaú, Rio de Janeiro. Converse sobre a idade da criança e agende uma aula experimental gratuita."
+    },
+    "/artigos/musica-para-criancas/": {
+      "title": "Música para crianças: como começar com leveza | Gama",
+      "description": "Brincar com sons, escutar e descobrir um instrumento são formas de aproximar a criança da música. Antes de pensar em resultados, vale observar o que desperta sua curiosidade.",
+      "type": "article"
+    },
+    "/artigos/musica-para-jovens/": {
+      "title": "Música para jovens: repertório, expressão e prática | Gama",
+      "description": "Aprender música pode começar por uma banda, uma canção ou pela vontade de tocar com amigos. Transformar esse interesse em prática é um caminho feito de escolhas e pequenas descobertas.",
+      "type": "article"
+    },
+    "/artigos/musica-para-adultos/": {
+      "title": "Música para adultos: como começar ou retomar os estudos | Gama",
+      "description": "A vontade de tocar pode acompanhar alguém por anos. Começar na vida adulta pede um plano possível para a rotina e espaço para aprender sem comparar seu percurso ao de outras pessoas.",
+      "type": "article"
+    },
+    "/artigos/musica-na-terceira-idade/": {
+      "title": "Música na terceira idade: aprender no seu ritmo | Gama",
+      "description": "A vontade de cantar ou tocar também encontra espaço na terceira idade. O ponto de partida pode ser uma música querida, uma experiência antiga ou a curiosidade de conhecer um instrumento.",
+      "type": "article"
+    },
+    "/artigos/": {
+      "title": "Artigos sobre aprendizagem musical | Gama Escola de Música",
+      "description": "Leituras sobre música para crianças, jovens, adultos e terceira idade. Orientações para começar ou retomar os estudos na Gama, no Grajaú."
     }
   }
 }
