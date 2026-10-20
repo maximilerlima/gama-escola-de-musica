@@ -28,10 +28,7 @@ jobs:
         with:
           enablement: true
       - name: Preparar o site
-        run: |
-          mkdir -p site
-          cp index.html styles.css script.js .nojekyll site/
-          cp -R assets site/assets
+        run: python3 scripts/build.py --out site
       - name: Enviar o site para publicação
         uses: actions/upload-pages-artifact@v3
         with:

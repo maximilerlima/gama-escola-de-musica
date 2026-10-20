@@ -1,0 +1,42 @@
+{
+  "base_url": "https://gamaescolademusica.com.br",
+  "image": "/assets/compartilhar-gama.webp",
+  "routes": {
+    "/": {
+      "title": "Escola de Música no Grajaú, RJ | Gama Escola de Música",
+      "description": "Aulas de piano, violão, canto, guitarra, bateria e mais no Grajaú, RJ. Para crianças, jovens, adultos e idosos. Agende sua aula experimental gratuita."
+    },
+    "/cursos/": {
+      "title": "Cursos de Música no Grajaú | Gama Escola de Música",
+      "description": "Conheça os cursos de música da Gama no Grajaú: piano, violão, canto, guitarra, bateria, teclado, musicalização infantil e mais. Aula experimental gratuita."
+    },
+    "/aulas-de-piano/": {
+      "title": "Aulas de Piano no Grajaú, RJ | Gama Escola de Música",
+      "description": "Conheça as aulas de piano da Gama no Grajaú, Rio de Janeiro. Comece ou retome a música e agende sua aula experimental gratuita."
+    },
+    "/aulas-de-violao/": {
+      "title": "Aulas de Violão no Grajaú, RJ | Gama Escola de Música",
+      "description": "Conheça as aulas de violão da Gama no Grajaú, Rio de Janeiro. Comece ou retome a música e agende sua aula experimental gratuita."
+    },
+    "/aulas-de-guitarra/": {
+      "title": "Aulas de Guitarra no Grajaú, RJ | Gama Escola de Música",
+      "description": "Conheça as aulas de guitarra da Gama no Grajaú, Rio de Janeiro. Comece ou retome a música e agende sua aula experimental gratuita."
+    },
+    "/aulas-de-canto/": {
+      "title": "Aulas de Canto no Grajaú, RJ | Gama Escola de Música",
+      "description": "Conheça as aulas de canto da Gama no Grajaú, Rio de Janeiro. Comece ou retome a música e agende sua aula experimental gratuita."
+    },
+    "/aulas-de-bateria/": {
+      "title": "Aulas de Bateria no Grajaú, RJ | Gama Escola de Música",
+      "description": "Conheça as aulas de bateria da Gama no Grajaú, Rio de Janeiro. Comece ou retome a música e agende sua aula experimental gratuita."
+    },
+    "/aulas-de-teclado/": {
+      "title": "Aulas de Teclado no Grajaú, RJ | Gama Escola de Música",
+      "description": "Conheça as aulas de teclado da Gama no Grajaú, Rio de Janeiro. Comece ou retome a música e agende sua aula experimental gratuita."
+    },
+    "/musicalizacao-infantil/": {
+      "title": "Musicalização Infantil no Grajaú | Gama Escola de Música",
+      "description": "Conheça a musicalização infantil da Gama no Grajaú, Rio de Janeiro. Converse sobre a idade da criança e agende uma aula experimental gratuita."
+    }
+  }
+}
